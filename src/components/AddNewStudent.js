@@ -24,7 +24,7 @@ const navigate=useNavigate()
         navigate('/students')
     }
   return (
-    <>
+    <div className='addstu-parent'>
     <form>
       <div className='addstudent-container'>
         <div className='input-element'>
@@ -50,7 +50,7 @@ const navigate=useNavigate()
       <button type='button'onClick={()=>{ navigate('/students')}} className='btn2 btn3'>Cancel</button>
       </div>
     </form>  
-    </>
+    </div>
   )
 }
 

@@ -60,6 +60,11 @@ form{
  left: 5vw;
  top: 15vh;
  
+ 
+}
+.addstu-parent{
+  background-color: rgb(199, 213, 227);
+  height: 100vh;
 }
 .addstudent-container{
   display: flex;
@@ -89,7 +94,7 @@ input{
   position: absolute;
   padding: 10px;
   padding-left: 20px;
-  /* background-color: aliceblue; */
+  /* background-color: rgb(227, 236, 237); */
   border-radius: 5px;
   mix-blend-mode: color-burn;
   z-index: 10;
@@ -98,7 +103,7 @@ input{
   position: absolute;
   left: 1vw;
   padding: 0px 10px;
-  background-color: rgb(233, 236, 240);
+  background-color: rgb(199, 213, 227);
   border-radius: 5px;
   transition: 0.5s;
   /* mix-blend-mode: color-burn; */
